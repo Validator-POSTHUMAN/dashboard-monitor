@@ -1,0 +1,19 @@
+Recommended pinned package versions for this dashboard frontend
+
+Core:
+react: 19.2.4
+react-dom: 19.2.4
+typescript: 6.0.2
+
+Charts:
+echarts: 6.0.0
+echarts-for-react: 3.0.6
+
+Icons:
+lucide-react: 1.7.0
+
+If lucide-react still resolves incorrectly in node_modules, pin it exactly and reinstall clean:
+rm -rf node_modules package-lock.json
+npm cache clean --force
+npm install
+npm install lucide-react@1.7.0
