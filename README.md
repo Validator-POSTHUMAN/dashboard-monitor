@@ -28,7 +28,7 @@ It includes a FastAPI backend, a React/Vite frontend, SQLite-based metric histor
 dashboard-monitor/
 ├── backend/
 ├── frontend/
-└── start_dashboard.sh
+└── start_install.sh
 ```
 
 ## Quick start
