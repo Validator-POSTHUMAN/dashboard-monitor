@@ -25,7 +25,7 @@ It includes a FastAPI backend, a React/Vite frontend, SQLite-based metric histor
 ## Project structure
 
 ```text
-genlayer-dash-clean/
+dashboard-monitor/
 ├── backend/
 ├── frontend/
 └── start_dashboard.sh
@@ -34,8 +34,8 @@ genlayer-dash-clean/
 ## Quick start
 
 ```bash
-chmod +x start_dashboard.sh
-./start_dashboard.sh
+chmod +x start_install.sh
+./start_install.sh
 ```
 
 The script will ask for the node IP/host, configure the backend, initialize SQLite, and start:
